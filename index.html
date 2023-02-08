@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Landing Page</title>
+</head>
+<body>
+    <header id="header">
+      <div class="container">
+      <div class="logo">
+        <img id="header-img" src="https://1000logos.net/wp-content/uploads/2016/10/Apple-Logo-1977.png" alt="logo apple">
+      </div>
+      <nav id="nav-bar">
+        <ul>
+          <li><a href="#home" class="nav-link">Início</a></li>
+          <li><a href="#detalhes" class="nav-link">Especificações</a></li>
+          <li><a href="#video" class="nav-link">Video</a></li>
+          <li><a href="#contato" class="nav-link">Contato</a></li>
+        </ul>
+      </nav>
+      </div>
+    </header>
+    <section id="home" class="banner">
+      <div class="container">
+      <div class="banner-content">
+      <img id="banner-img" src="https://s.zst.com.br/cms-assets/2022/09/capa-iphone-14-1-.webp" alt="banner geforce">
+      <div class="content">
+      <h1>IPHONE 14</h1>
+      <p>Uma nova forma de interação no iPhone. Um recurso essencial de segurança projetado para salvar vidas. Câmera inovadora de 48 MP que revela detalhes impressionantes. Tudo com a potência do chip para smartphone que é o máximo.
+</p>
+        </div>
+      </div>
+      </div>
+    </section>
+    <section id="detalhes">
+      <div class="container">
+      <div class="iphone">
+        <img src="https://o.remove.bg/downloads/57f5348c-4fe1-4dab-bab7-dd485e183e52/iphone-14-pro-model-unselect-gallery-2-202209-removebg-preview.png" alt="iphone 14">
+      </div>
+      <div class="especificacoes">
+      <h3><p>Marca: Apple</p>
+      <p>Modelo: IPhone 14 Pro Max</p>
+      <p>Armazenamento Interno: 256GB</p>
+      <p>Sistema Operacional: iOS 16</p>
+      <p>Processador: A16</p>
+      </h3>
+      </div>
+      </div>
+    </section>
+  <section class="video">
+    <div class="container"><iframe id="video" src="https://www.youtube.com/embed/FT3ODSg1GFE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <section class="contato" id="contato">
+    <div class="container">
+      <h2>Entre em contato conosco</h2>
+      <form id="form" action="">
+
+  <label id="name-label" for="name">Nome Completo *
+    <input type="text" id="name" placeholder="Ex: Seu nome" required>
+  </label>
+  
+  <label id="email-label" for="email">Email *
+    <input name="email" type="email" id="email" placeholder="Ex: seuemail@gmail.com" required>
+  </label>
+
+  <label id="number-label" for="number">Telefone
+    <input type="number" id="number" placeholder="Ex: (90) 93785-4324" min="00000001" max="9999999999999">
+  </label>
+
+    <label for="dropdown">Motivo
+      <select id="dropdown">
+        <option>Selecione...</option>
+        <option>Problema na compra</option>
+        <option>Reembolso</option>
+        <option>Erro no produto em destaque</option>
+        <option>Outro</option>
+      </select>
+    </label>
+  
+  <h3>Mensagem</h3>
+  <textarea rows="8" id="mensagem" placeholder="Sua mensagem"></textarea>
+  <div>
+  
+  <input type="submit" id="submit">
+</form>
+    </div>
+  </section>
+</body>
+</html>
